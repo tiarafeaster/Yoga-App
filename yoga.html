@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga 🧘🏾‍♂️</title>
+
+    <style>
+        body {
+            background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+        }
+        h1 {
+            text-align: center;
+            color: #c4317b;
+            border: 5px double; 
+            box-shadow: 3px 3px 3px;
+        }
+        h2 {
+            text-align: center;
+            color: #ac7c7c;
+        }
+        p {
+            padding: 20px;
+            color: #c4317b;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.8;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            max-width: 80%;
+            border-radius: 10px;
+        }
+        button {
+            display: block;
+            margin: 8px auto;
+            margin-top: 20px;
+            background:#c4317b;
+            color: white;
+            font-size: 16px;
+            font-weight: normal;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 6px;
+            box-shadow: 5px 5px 5px ;
+            transition: all 200ms ease-in-out;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: #ac7c7c;
+        }
+        
+        .wiki {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color:darkblue;
+        }
+        .wiki:hover, .india-times:hover {
+            text-decoration: underline;
+            color: #c4317b;
+        }
+        .footer {
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Yoga and Health </h1>
+
+        <h2>Benefits of Practicing Yoga </h2>
+        <hr />
+
+        <img src ="https://i.pinimg.com/originals/62/50/11/625011e4eba42b9e2ed95632a5d01a2b.png" alt="woman doing yoga" >
+
+        <p>
+            If you’re a passionate yoga practitioner, you’ve probably noticed some yoga benefits—maybe you’re sleeping better or
+            getting fewer colds or just feeling more relaxed and at ease. But if you’ve ever tried telling a newbie about the
+            benefits of yoga, you might find that explanations like “It increases the flow of prana” or “It brings energy up your
+            spine” fall on deaf or skeptical ears.
+        </p>
+            
+        <h2>
+            <a href="https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/" target="_blank">Researchers Are Catching On to Yoga’s Benefits</a> 
+        </h2>
+
+        <p>
+            As it happens, Western science is starting to provide some concrete clues as to how yoga works to improve health, heal
+            aches and pains, and keep sickness at bay. Once you understand them, you’ll have even more motivation to step onto your
+            mat, and you probably won’t feel so tongue-tied the next time someone wants Western proof. </p>
+        <p>
+            Yoga is a group of physical, <em>mental,</em> and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox philosophical schools of Hinduism. <a href="https://timesofindia.indiatimes.com/life-style/health-fitness/fitness/10-health-benefits-of-yoga/articleshow/64678825.cms"
+                target="_blank" class="india-times"><strong>Read more!</strong></a>
+        </p> 
+
+        <hr/>
+    
+        <button>Find a Yoga Class Near You</button>
+        <br />
+            <span><a href="https://en.wikipedia.org/wiki/Yoga" target="_blank" class="wiki">Don't forget to check out the Wikipedia</a></span>
+
+        <p class="footer">
+            This page was built by <a href="https://www.github.com/tiarafeaster"> Tiara Feaster</a>
+        </p>
+    </div>
+   
+
+<script>
+    function signUp() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let zip = prompt("Please enter your zipcode!");
+
+
+        if (zip = isNaN) {
+            alert(" Thank you " + name + "! We will be in touch by email!");   
+        }
+         else {
+            alert("Please enter a valid United States zipcode");
+        } 
+    }
+
+    let button = document.querySelector("button")
+    button.addEventListener("click", signUp)
+</script>
+</body>
+</html>
